@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" ng-app>
+<head>
+	<meta charset="utf-8">
+
+   	<title>Gestão de usuário</title>
+<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="{{ url_for('static', filename="node_modules/bootstrap/dist/css/bootstrap.min.css" )}}">
+        <link rel="stylesheet" href="{{ url_for('static', filename="node_modules/bootstrap/dist/css/bootstrap-theme.min.css" )}}">
+
+        <script src="{{ url_for('static', filename="node_modules/core-js/client/shim.min.js")}}"></script>
+
+        <script src="{{ url_for('static', filename="node_modules/zone.js/dist/zone.js")}}"></script>
+        <script src="{{ url_for('static', filename="node_modules/reflect-metadata/Reflect.js")}}"></script>
+        <script src="{{ url_for('static', filename="node_modules/systemjs/dist/system.src.js")}}"></script>
+
+        <script src="{{ url_for('static', filename="systemjs.config.js")}}"></script>
+        <script>
+            System.import('application').catch(function(err){ console.error(err); });
+        </script></head>
+<body ng-app="myApp">
+
+    <app>Carregando...</app>
+</body>
+</html>

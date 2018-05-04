@@ -1,0 +1,75 @@
+<div class="container">
+		
+	<h1 class="display-4 jumbotron text-center">Gestão de usuário</h1>
+
+	<form name="mainForm" ng-submit="send()">
+		<div class="row form-group">
+			<div class="col-sm-2">
+				<label>Nome: </label>
+			</div>
+			<div class="col-sm-2">
+				<input class="form-control" type="text" name="nome-usuario" placeholder="Seu Nome"
+				required />
+			</div>
+		</div>
+
+		<div class="row form-group">
+			<div class="col-sm-2">
+				<label class="margem">CPF: </label>
+			</div>
+			<div class="col-sm-2">
+				<input class="form-control" type="text" name="cpf-usuario" placeholder="000.000.000-00"
+				maxlength="11" required/>
+			</div>
+		</div>
+
+		<div class="row form-group">
+			<div class="col-sm-2">
+				<label>E-mail: </label>
+			</div>
+			<div class="col-sm-2">
+				<input class="form-control" id="exampleInputEmail1" type="email" name="email-usuario"
+				 placeholder="joao@gmail.com" required/>
+			</div>
+		</div>
+
+		<div class="row form-group">
+			<div class="col-sm-2">
+				<label>Celular: </label>
+			</div>
+			<div class="col-sm-2">
+				<input class="form-control" type="text" name="cel-usuario" placeholder="(00)90000-0000"
+				required/>
+			</div>
+		</div>
+
+		<div class="row form-group">
+			<div class="col-sm-2">
+				<label>Senha:</label>
+			</div>
+			<div class="col-sm-2">
+				<input class="form-control" id="exampleInputPassword1" type="password" name="senhaUser"
+				ng-model="senhaUser" placeholder="Insira uma senha"  data-minlength="6" required/>
+			</div>
+		</div>
+
+		<div class="row form-group">
+			<div class="col-sm-2">
+				<label>Confirmar Senha:</label>
+			</div>
+			<div class="col-sm-2">
+				<input class="form-control" type="password" name="senhaUserConf" ng-model="senhaUserConf"
+				placeholder="Insira sua senha" required/>
+			</div>
+		</div>
+
+		<div class="row form-group">
+			<button class="btn btn-primary active" aria-pressed="true">Cadastrar</button>
+		</div>	
+
+		<usuario></usuario>
+
+	</form>
+</div>
+
+
