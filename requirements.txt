@@ -21,7 +21,7 @@ kivy.deps.sdl2==0.1.17
 MarkupSafe==1.0
 numpy==1.13.3
 playsound==1.2.2
-psutil==5.4.1
+psutil==5.6.6
 pygame==1.9.3
 Pygments==2.2.0
 pypiwin32==220
