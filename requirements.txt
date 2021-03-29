@@ -23,7 +23,7 @@ numpy==1.13.3
 playsound==1.2.2
 psutil==5.4.1
 pygame==1.9.3
-Pygments==2.2.0
+Pygments==2.7.4
 pypiwin32==220
 pytz==2018.4
 pywin32==221
