@@ -26,7 +26,7 @@ pygame==1.9.3
 Pygments==2.2.0
 pypiwin32==220
 pytz==2018.4
-pywin32==221
+pywin32==301
 requests==2.18.4
 six==1.11.0
 SQLAlchemy==1.2.7
